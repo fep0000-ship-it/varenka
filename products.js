@@ -12,7 +12,7 @@ const products = [
     category: "Гирлянды",
     name: "Гирлянда «Снежная»",
     price: "850 ₽",
-    image: "images/garland-1.jpg",
+    image: "garland-1.jpg",
     description: "Гирлянда из эпоксидной смолы с блёстками, длина 1,5 м, тёплый белый свет."
   },
   {
@@ -20,7 +20,7 @@ const products = [
     category: "Гирлянды",
     name: "Гирлянда «Морозная»",
     price: "900 ₽",
-    image: "images/garland-2.jpg",
+    image: "garland-2.JPG",
     description: "Гирлянда ручной работы, 2 м, 20 огоньков."
   },
   // ... добавь остальные 8 гирлянд по образцу
@@ -31,7 +31,7 @@ const products = [
     category: "Подсвечники",
     name: "Подсвечник «Ёлочка»",
     price: "450 ₽",
-    image: "images/candle-1.jpg",
+    image: "candle-1.jpg",
     description: "Гипсовый подсвечник, покрытие акрилом, высота 12 см."
   },
   // ... добавь остальные 49 подсвечников
@@ -42,7 +42,7 @@ const products = [
     category: "Снежинки",
     name: "Снежинка «Кристалл»",
     price: "250 ₽",
-    image: "images/snowflake-1.jpg",
+    image: "snowflake-1.jpg",
     description: "Снежинка из эпоксидной смолы, диаметр 8 см, с подвесом."
   },
   // ... добавь остальные 14 снежинок
@@ -53,7 +53,7 @@ const products = [
     category: "Шары",
     name: "Шар «Зимний вечер»",
     price: "300 ₽",
-    image: "images/ball-1.jpg",
+    image: "ball-1.jpg",
     description: "Круглая игрушка из эпоксидной смолы, диаметр 7 см."
   },
   // ... добавь остальные 19 шаров
