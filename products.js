@@ -140,4 +140,5 @@ const products = [
       "images/garland-9/4.jpg",
       "images/garland-9/5.jpg"
     ]
-  },
+  }
+];
