@@ -1,60 +1,136 @@
-// ============================================
-// СПИСОК ТОВАРОВ
-// Чтобы добавить товар — скопируй блок { ... },
-// вставь перед закрывающей ] и поменяй значения.
-// Фото клади в папку images/
-// ============================================
-
-const products = [
   // --- ГИРЛЯНДЫ ---
   {
     id: 1,
-    category: "Гирлянды",
-    name: "Гирлянда «Снежная»",
-    price: "850 ₽",
-    image: "garland-1.jpg",
-    description: "Гирлянда из эпоксидной смолы с блёстками, длина 1,5 м, тёплый белый свет."
+    category: "Новогодняя гирлянда из эпоксидной смолы",
+    name: "Гирлянда черная с золотым",
+    price: "1600 ₽",
+    description: "Новогодняя гирлянда из эпоксидной смолы, 10 игрушек на проводе с лампочками, 1,5 м красный",
+    images: [
+      "images/garland-1/main.jpg",
+      "images/garland-1/1.jpg",
+      "images/garland-1/2.jpg",
+      "images/garland-1/3.jpg",
+      "images/garland-1/4.jpg",
+      "images/garland-1/5.jpg"
+    ]
   },
   {
     id: 2,
-    category: "Гирлянды",
-    name: "Гирлянда «Морозная»",
-    price: "900 ₽",
-    image: "garland-2.JPG",
-    description: "Гирлянда ручной работы, 2 м, 20 огоньков."
+    category: "Новогодняя гирлянда из эпоксидной смолы",
+    name: "Гирлянда зеленая с красным",
+    price: "1600 ₽",
+    description: "Новогодняя гирлянда из эпоксидной смолы, 10 игрушек на проводе с лампочками, 1,5 м",
+    images: [
+      "images/garland-2/main.jpg",
+      "images/garland-2/1.jpg",
+      "images/garland-2/2.jpg",
+      "images/garland-2/3.jpg",
+      "images/garland-2/4.jpg",
+      "images/garland-2/5.jpg"
+    ]
   },
-  // ... добавь остальные 8 гирлянд по образцу
-
-  // --- ПОДСВЕЧНИКИ ИЗ ГИПСА ---
   {
-    id: 11,
-    category: "Подсвечники",
-    name: "Подсвечник «Ёлочка»",
-    price: "450 ₽",
-    image: "candle-1.jpg",
-    description: "Гипсовый подсвечник, покрытие акрилом, высота 12 см."
+    id: 3,
+    category: "Новогодняя гирлянда из эпоксидной смолы",
+    name: "Гирлянда синяя с серебром",
+    price: "1600 ₽",
+    description: "Новогодняя гирлянда из эпоксидной смолы, 10 игрушек на проводе с лампочками, 1,5 м",
+    images: [
+      "images/garland-3/main.jpg",
+      "images/garland-3/1.jpg",
+      "images/garland-3/2.jpg",
+      "images/garland-3/3.jpg",
+      "images/garland-3/4.jpg",
+      "images/garland-3/5.jpg"
+    ]
   },
-  // ... добавь остальные 49 подсвечников
-
-  // --- ЁЛОЧНЫЕ ИГРУШКИ-СНЕЖИНКИ ---
   {
-    id: 61,
-    category: "Снежинки",
-    name: "Снежинка «Кристалл»",
-    price: "250 ₽",
-    image: "snowflake-1.jpg",
-    description: "Снежинка из эпоксидной смолы, диаметр 8 см, с подвесом."
+    id: 4,
+    category: "Новогодняя гирлянда из эпоксидной смолы",
+    name: "Гирлянда красная с золотом",
+    price: "1600 ₽",
+    description: "Новогодняя гирлянда из эпоксидной смолы, 10 игрушек на проводе с лампочками, 1,5 м",
+    images: [
+      "images/garland-4/main.jpg",
+      "images/garland-4/1.jpg",
+      "images/garland-4/2.jpg",
+      "images/garland-4/3.jpg",
+      "images/garland-4/4.jpg",
+      "images/garland-4/5.jpg"
+    ]
   },
-  // ... добавь остальные 14 снежинок
-
-  // --- КРУГЛЫЕ ИГРУШКИ ---
   {
-    id: 76,
-    category: "Шары",
-    name: "Шар «Зимний вечер»",
-    price: "300 ₽",
-    image: "ball-1.jpg",
-    description: "Круглая игрушка из эпоксидной смолы, диаметр 7 см."
+    id: 5,
+    category: "Новогодняя гирлянда из эпоксидной смолы",
+    name: "Гирлянда сиреневая",
+    price: "1600 ₽",
+    description: "Новогодняя гирлянда из эпоксидной смолы, 10 игрушек на проводе с лампочками, 1,5 м",
+    images: [
+      "images/garland-5/main.jpg",
+      "images/garland-5/1.jpg",
+      "images/garland-5/2.jpg",
+      "images/garland-5/3.jpg",
+      "images/garland-5/4.jpg",
+      "images/garland-5/5.jpg"
+    ]
   },
-  // ... добавь остальные 19 шаров
-];
+  {
+    id: 6,
+    category: "Новогодняя гирлянда из эпоксидной смолы",
+    name: "Гирлянда оранжевая",
+    price: "1600 ₽",
+    description: "Новогодняя гирлянда из эпоксидной смолы, 10 игрушек на проводе с лампочками, 1,5 м",
+    images: [
+      "images/garland-6/main.jpg",
+      "images/garland-6/1.jpg",
+      "images/garland-6/2.jpg",
+      "images/garland-6/3.jpg",
+      "images/garland-6/4.jpg",
+      "images/garland-6/5.jpg"
+    ]
+  },
+  {
+    id: 7,
+    category: "Новогодняя гирлянда из эпоксидной смолы",
+    name: "Гирлянда зеленая",
+    price: "1600 ₽",
+    description: "Новогодняя гирлянда из эпоксидной смолы, 10 игрушек на проводе с лампочками, 1,5 м",
+    images: [
+      "images/garland-7/main.jpg",
+      "images/garland-7/1.jpg",
+      "images/garland-7/2.jpg",
+      "images/garland-7/3.jpg",
+      "images/garland-7/4.jpg",
+      "images/garland-7/5.jpg"
+    ]
+  },
+  {
+    id: 8,
+    category: "Новогодняя гирлянда из эпоксидной смолы",
+    name: "Гирлянда красная с блестками",
+    price: "1600 ₽",
+    description: "Новогодняя гирлянда из эпоксидной смолы, 10 игрушек на проводе с лампочками, 1,5 м",
+    images: [
+      "images/garland-8/main.jpg",
+      "images/garland-8/1.jpg",
+      "images/garland-8/2.jpg",
+      "images/garland-8/3.jpg",
+      "images/garland-8/4.jpg",
+      "images/garland-8/5.jpg"
+    ]
+  },
+  {
+    id: 9,
+    category: "Новогодняя гирлянда из эпоксидной смолы",
+    name: "Гирлянда желтая",
+    price: "1600 ₽",
+    description: "Новогодняя гирлянда из эпоксидной смолы, 10 игрушек на проводе с лампочками, 1,5 м",
+    images: [
+      "images/garland-9/main.jpg",
+      "images/garland-9/1.jpg",
+      "images/garland-9/2.jpg",
+      "images/garland-9/3.jpg",
+      "images/garland-9/4.jpg",
+      "images/garland-9/5.jpg"
+    ]
+  },
