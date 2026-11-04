@@ -140,5 +140,227 @@ const products = [
       "images/garland-9/4.jpg",
       "images/garland-9/5.jpg"
     ]
+  },
+    // --- СНЕЖИНКИ ---
+  {
+    id: 10,
+    category: "Елочные игрушки «Снежинки»",
+    name: "Снежинки черные с белым",
+    price: "1000 ₽",
+    description: "Елочные игрушки «Снежинки» 24 шт",
+    images: [
+      "images/snowflake-1/main1.jpg",
+      "images/snowflake-1/main2.jpg",
+      "images/snowflake-1/1.jpg",
+      "images/snowflake-1/2.jpg",
+      "images/snowflake-1/3.jpg",
+      "images/snowflake-1/4.jpg",
+      "images/snowflake-1/5.jpg",
+      "images/snowflake-1/6.jpg"
+    ]
+  },
+  {
+    id: 11,
+    category: "Елочные игрушки «Снежинки»",
+    name: "Снежинки черные с золотом",
+    price: "1000 ₽",
+    description: "Елочные игрушки «Снежинки» 24 шт",
+    images: [
+      "images/snowflake-2/main1.jpg",
+      "images/snowflake-2/main2.jpg",
+      "images/snowflake-2/1.jpg",
+      "images/snowflake-2/2.jpg",
+      "images/snowflake-2/3.jpg",
+      "images/snowflake-2/4.jpg",
+      "images/snowflake-2/5.jpg",
+      "images/snowflake-2/6.jpg"
+    ]
+  },
+  {
+    id: 12,
+    category: "Елочные игрушки «Снежинки»",
+    name: "Снежинки красные с оранжевым",
+    price: "1000 ₽",
+    description: "Елочные игрушки «Снежинки» 24 шт",
+    images: [
+      "images/snowflake-3/main1.jpg",
+      "images/snowflake-3/main2.jpg",
+      "images/snowflake-3/1.jpg",
+      "images/snowflake-3/2.jpg",
+      "images/snowflake-3/3.jpg",
+      "images/snowflake-3/4.jpg",
+      "images/snowflake-3/5.jpg",
+      "images/snowflake-3/6.jpg"
+    ]
+  },
+  {
+    id: 13,
+    category: "Елочные игрушки «Снежинки»",
+    name: "Снежинки красные с блестками",
+    price: "1000 ₽",
+    description: "Елочные игрушки «Снежинки» 24 шт",
+    images: [
+      "images/snowflake-4/main1.jpg",
+      "images/snowflake-4/main2.jpg",
+      "images/snowflake-4/1.jpg",
+      "images/snowflake-4/2.jpg",
+      "images/snowflake-4/3.jpg",
+      "images/snowflake-4/4.jpg",
+      "images/snowflake-4/5.jpg",
+      "images/snowflake-4/6.jpg"
+    ]
+  },
+  {
+    id: 14,
+    category: "Елочные игрушки «Снежинки»",
+    name: "Снежинки красные с белым",
+    price: "1000 ₽",
+    description: "Елочные игрушки «Снежинки» 24 шт",
+    images: [
+      "images/snowflake-5/main1.jpg",
+      "images/snowflake-5/main2.jpg",
+      "images/snowflake-5/1.jpg",
+      "images/snowflake-5/2.jpg",
+      "images/snowflake-5/3.jpg",
+      "images/snowflake-5/4.jpg",
+      "images/snowflake-5/5.jpg",
+      "images/snowflake-5/6.jpg"
+    ]
+  },
+  {
+    id: 15,
+    category: "Елочные игрушки «Снежинки»",
+    name: "Снежинки синие с золотым",
+    price: "1000 ₽",
+    description: "Елочные игрушки «Снежинки» 24 шт",
+    images: [
+      "images/snowflake-6/main1.jpg",
+      "images/snowflake-6/main2.jpg",
+      "images/snowflake-6/1.jpg",
+      "images/snowflake-6/2.jpg",
+      "images/snowflake-6/3.jpg",
+      "images/snowflake-6/4.jpg",
+      "images/snowflake-6/5.jpg",
+      "images/snowflake-6/6.jpg"
+    ]
+  },
+  {
+    id: 16,
+    category: "Елочные игрушки «Снежинки»",
+    name: "Снежинки сиреневые с розовым",
+    price: "1000 ₽",
+    description: "Елочные игрушки «Снежинки» 24 шт",
+    images: [
+      "images/snowflake-7/main1.jpg",
+      "images/snowflake-7/main2.jpg",
+      "images/snowflake-7/1.jpg",
+      "images/snowflake-7/2.jpg",
+      "images/snowflake-7/3.jpg",
+      "images/snowflake-7/4.jpg",
+      "images/snowflake-7/5.jpg",
+      "images/snowflake-7/6.jpg"
+    ]
+  },
+  {
+    id: 17,
+    category: "Елочные игрушки «Снежинки»",
+    name: "Снежинки синие с блестками",
+    price: "1000 ₽",
+    description: "Елочные игрушки «Снежинки» 24 шт",
+    images: [
+      "images/snowflake-8/main1.jpg",
+      "images/snowflake-8/main2.jpg",
+      "images/snowflake-8/1.jpg",
+      "images/snowflake-8/2.jpg",
+      "images/snowflake-8/3.jpg",
+      "images/snowflake-8/4.jpg",
+      "images/snowflake-8/5.jpg",
+      "images/snowflake-8/6.jpg"
+    ]
+  },
+  {
+    id: 18,
+    category: "Елочные игрушки «Снежинки»",
+    name: "Снежинки синие с серебром",
+    price: "1000 ₽",
+    description: "Елочные игрушки «Снежинки» 24 шт",
+    images: [
+      "images/snowflake-9/main1.jpg",
+      "images/snowflake-9/main2.jpg",
+      "images/snowflake-9/1.jpg",
+      "images/snowflake-9/2.jpg",
+      "images/snowflake-9/3.jpg",
+      "images/snowflake-9/4.jpg",
+      "images/snowflake-9/5.jpg",
+      "images/snowflake-9/6.jpg"
+    ]
+  },
+  {
+    id: 19,
+    category: "Елочные игрушки «Снежинки»",
+    name: "Снежинка «Уютная»",
+    price: "250 ₽",
+    description: "Тёплая на вид снежинка с мягким свечением.",
+    images: [
+      "images/snowflake-10/main1.jpg",
+      "images/snowflake-10/main2.jpg",
+      "images/snowflake-10/1.jpg",
+      "images/snowflake-10/2.jpg",
+      "images/snowflake-10/3.jpg",
+      "images/snowflake-10/4.jpg",
+      "images/snowflake-10/5.jpg",
+      "images/snowflake-10/6.jpg"
+    ]
+  },
+  {
+    id: 20,
+    category: "Елочные игрушки «Снежинки»",
+    name: "Снежинка «Элегантная»",
+    price: "250 ₽",
+    description: "Утончённая снежинка для стильного интерьера.",
+    images: [
+      "images/snowflake-11/main1.jpg",
+      "images/snowflake-11/main2.jpg",
+      "images/snowflake-11/1.jpg",
+      "images/snowflake-11/2.jpg",
+      "images/snowflake-11/3.jpg",
+      "images/snowflake-11/4.jpg",
+      "images/snowflake-11/5.jpg",
+      "images/snowflake-11/6.jpg"
+    ]
+  },
+  {
+    id: 21,
+    category: "Елочные игрушки «Снежинки»",
+    name: "Снежинка «Сказочная»",
+    price: "250 ₽",
+    description: "Снежинка с неповторимым узором.",
+    images: [
+      "images/snowflake-12/main1.jpg",
+      "images/snowflake-12/main2.jpg",
+      "images/snowflake-12/1.jpg",
+      "images/snowflake-12/2.jpg",
+      "images/snowflake-12/3.jpg",
+      "images/snowflake-12/4.jpg",
+      "images/snowflake-12/5.jpg",
+      "images/snowflake-12/6.jpg"
+    ]
+  },
+  {
+    id: 22,
+    category: "Елочные игрушки «Снежинки»",
+    name: "Снежинка «Новогодняя»",
+    price: "250 ₽",
+    description: "Главный символ зимы в вашем доме.",
+    images: [
+      "images/snowflake-13/main1.jpg",
+      "images/snowflake-13/main2.jpg",
+      "images/snowflake-13/1.jpg",
+      "images/snowflake-13/2.jpg",
+      "images/snowflake-13/3.jpg",
+      "images/snowflake-13/4.jpg",
+      "images/snowflake-13/5.jpg",
+      "images/snowflake-13/6.jpg"
+    ]
   }
 ];
