@@ -259,3 +259,39 @@ footer a { color: #f2ece2; text-decoration: underline; }
   .modal-content { width: 100%; }
   .prev, .next { font-size: 20px; }
 }
+/* ===== Переключатель обложек на карточке ===== */
+.photo {
+  position: relative; /* Чтобы стрелочки позиционировались внутри фото */
+}
+
+.card-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(253, 246, 236, 0.85); /* Тёплый кремовый фон */
+  color: var(--accent-dark);
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  opacity: 0; /* Скрыты по умолчанию */
+  transition: opacity 0.2s, background 0.2s;
+  z-index: 2;
+}
+
+.card:hover .card-arrow {
+  opacity: 1; /* Появляются при наведении на карточку */
+}
+
+.card-arrow:hover {
+  background: #ffffff;
+}
+
+.card-arrow.left { left: 10px; }
+.card-arrow.right { right: 10px; }
