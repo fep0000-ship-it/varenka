@@ -367,10 +367,10 @@ const products = [
   // Серебряные (5 штук)
   {
     id: 23,
-    category: "Подсвечники",
-    name: "Подсвечник серебряный (Цвет 1)",
-    price: "500 ₽",
-    description: "Изящный гипсовый подсвечник с серебряным покрытием.",
+    category: "Набор подсвечников из гипса с насыпным воском, 2 шт. в подарочной коробке",
+    name: "Подсвечник белый",
+    price: "400 ₽",
+    description: "Подсвечник с серебряным покрытием",
     images: [
       "images/candle-silver-1/main1.jpg",
       "images/candle-silver-1/main2.jpg",
@@ -386,10 +386,10 @@ const products = [
   },
   {
     id: 24,
-    category: "Подсвечники",
-    name: "Подсвечник серебряный (Цвет 2)",
-    price: "500 ₽",
-    description: "Гипсовый подсвечник с серебряным дизайном.",
+    category: "Набор подсвечников из гипса с насыпным воском, 2 шт. в подарочной коробке",
+    name: "Подсвечник желтый",
+    price: "400 ₽",
+    description: "Подсвечник с серебряным покрытием",
     images: [
       "images/candle-silver-2/main1.jpg",
       "images/candle-silver-2/main2.jpg",
@@ -405,10 +405,10 @@ const products = [
   },
   {
     id: 25,
-    category: "Подсвечники",
-    name: "Подсвечник серебряный (Цвет 3)",
-    price: "500 ₽",
-    description: "Серебристый подсвечник ручной работы.",
+    category: "Набор подсвечников из гипса с насыпным воском, 2 шт. в подарочной коробке",
+    name: "Подсвечник светло-серый",
+    price: "400 ₽",
+    description: "Подсвечник с серебряным покрытием",
     images: [
       "images/candle-silver-3/main1.jpg",
       "images/candle-silver-3/main2.jpg",
@@ -424,10 +424,10 @@ const products = [
   },
   {
     id: 26,
-    category: "Подсвечники",
-    name: "Подсвечник серебряный (Цвет 4)",
-    price: "500 ₽",
-    description: "Стильный подсвечник с эффектом металла.",
+    category: "Набор подсвечников из гипса с насыпным воском, 2 шт. в подарочной коробке",
+    name: "Подсвечник голубой",
+    price: "400 ₽",
+    description: "Подсвечник с серебряным покрытием",
     images: [
       "images/candle-silver-4/main1.jpg",
       "images/candle-silver-4/main2.jpg",
@@ -443,10 +443,10 @@ const products = [
   },
   {
     id: 27,
-    category: "Подсвечники",
-    name: "Подсвечник серебряный (Цвет 5)",
-    price: "500 ₽",
-    description: "Элегантный серебряный подсвечник.",
+    category: "Набор подсвечников из гипса с насыпным воском, 2 шт. в подарочной коробке",
+    name: "Подсвечник оранжевый",
+    price: "400 ₽",
+    description: "Подсвечник с серебряным покрытием",
     images: [
       "images/candle-silver-5/main1.jpg",
       "images/candle-silver-5/main2.jpg",
@@ -464,10 +464,10 @@ const products = [
   // Золотые (7 штук)
   {
     id: 28,
-    category: "Подсвечники",
-    name: "Подсвечник золотой (Цвет 1)",
-    price: "550 ₽",
-    description: "Роскошный гипсовый подсвечник с золотым покрытием.",
+    category: "Набор подсвечников из гипса с насыпным воском, 2 шт. в подарочной коробке",
+    name: "Подсвечник белый",
+    price: "400 ₽",
+    description: "Подсвечник с золотым покрытием",
     images: [
       "images/candle-gold-1/main1.jpg",
       "images/candle-gold-1/main2.jpg",
@@ -483,10 +483,10 @@ const products = [
   },
   {
     id: 29,
-    category: "Подсвечники",
-    name: "Подсвечник золотой (Цвет 2)",
-    price: "550 ₽",
-    description: "Тёплый золотистый оттенок, создаёт уют.",
+    category: "Набор подсвечников из гипса с насыпным воском, 2 шт. в подарочной коробке",
+    name: "Подсвечник желтый",
+    price: "400 ₽",
+    description: "Подсвечник с золотым покрытием",
     images: [
       "images/candle-gold-2/main1.jpg",
       "images/candle-gold-2/main2.jpg",
@@ -502,10 +502,10 @@ const products = [
   },
   {
     id: 30,
-    category: "Подсвечники",
-    name: "Подсвечник золотой (Цвет 3)",
-    price: "550 ₽",
-    description: "Изысканный подсвечник с золотым блеском.",
+    category: "Набор подсвечников из гипса с насыпным воском, 2 шт. в подарочной коробке",
+    name: "Подсвечник светло-серый",
+    price: "400 ₽",
+    description: "Подсвечник с золотым покрытием",
     images: [
       "images/candle-gold-3/main1.jpg",
       "images/candle-gold-3/main2.jpg",
@@ -521,10 +521,10 @@ const products = [
   },
   {
     id: 31,
-    category: "Подсвечники",
-    name: "Подсвечник золотой (Цвет 4)",
-    price: "550 ₽",
-    description: "Классический золотой подсвечник.",
+    category: "Набор подсвечников из гипса с насыпным воском, 2 шт. в подарочной коробке",
+    name: "Подсвечник голубой",
+    price: "400 ₽",
+    description: "Подсвечник с золотым покрытием",
     images: [
       "images/candle-gold-4/main1.jpg",
       "images/candle-gold-4/main2.jpg",
@@ -540,10 +540,10 @@ const products = [
   },
   {
     id: 32,
-    category: "Подсвечники",
-    name: "Подсвечник золотой (Цвет 5)",
-    price: "550 ₽",
-    description: "Праздничный дизайн с золотыми акцентами.",
+    category: "Набор подсвечников из гипса с насыпным воском, 2 шт. в подарочной коробке",
+    name: "Подсвечник оранжевый",
+    price: "400 ₽",
+    description: "Подсвечник с золотым покрытием",
     images: [
       "images/candle-gold-5/main1.jpg",
       "images/candle-gold-5/main2.jpg",
@@ -559,10 +559,10 @@ const products = [
   },
   {
     id: 33,
-    category: "Подсвечники",
-    name: "Подсвечник золотой (Цвет 6)",
-    price: "550 ₽",
-    description: "Благородный золотой оттенок.",
+    category: "Набор подсвечников из гипса с насыпным воском, 2 шт. в подарочной коробке",
+    name: "Подсвечник коричневый",
+    price: "400 ₽",
+    description: "Подсвечник с золотым покрытием",
     images: [
       "images/candle-gold-6/main1.jpg",
       "images/candle-gold-6/main2.jpg",
@@ -578,10 +578,10 @@ const products = [
   },
   {
     id: 34,
-    category: "Подсвечники",
-    name: "Подсвечник золотой (Цвет 7)",
-    price: "550 ₽",
-    description: "Яркий и тёплый подсвечник.",
+    category: "Набор подсвечников из гипса с насыпным воском, 2 шт. в подарочной коробке",
+    name: "Подсвечник пыльная роза",
+    price: "400 ₽",
+    description: "Подсвечник с золотым покрытием",
     images: [
       "images/candle-gold-7/main1.jpg",
       "images/candle-gold-7/main2.jpg",
