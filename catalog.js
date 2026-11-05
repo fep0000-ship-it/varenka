@@ -39,16 +39,24 @@ function render(list) {
     grid.innerHTML = "<p style='color:#7a6a60'>Пока нет товаров в этой категории.</p>";
     return;
   }
+  
   list.forEach(p => {
     const card = document.createElement("div");
     card.className = "card";
     
-    // Берем первую картинку как обложку
+    // Берем картинки
     const mainImage = p.images[0]; 
+    const secondImage = p.images[1]; 
+    const hasMultipleCovers = p.images.length > 1;
 
+    // Формируем HTML карточки
     card.innerHTML = `
       <div class="photo">
-        <img src="${mainImage}" alt="${p.name}" loading="lazy">
+        <img src="${mainImage}" alt="${p.name}" loading="lazy" class="card-img">
+        ${hasMultipleCovers ? `
+          <button class="card-arrow left" style="display:none;">&#10094;</button>
+          <button class="card-arrow right">&#10095;</button>
+        ` : ''}
       </div>
       <div class="body">
         <div class="cat-label">${p.category}</div>
@@ -58,13 +66,37 @@ function render(list) {
       </div>
     `;
 
-    // Клик по карточке открывает галерею
-    card.onclick = () => openModal(p.images, p.name);
+    // Логика переключения картинок
+    if (hasMultipleCovers) {
+      const imgEl = card.querySelector(".card-img");
+      const btnLeft = card.querySelector(".card-arrow.left");
+      const btnRight = card.querySelector(".card-arrow.right");
+      let showingSecond = false;
+
+      const switchCover = (e) => {
+        e.stopPropagation(); // Останавливаем клик, чтобы не открылась галерея
+        showingSecond = !showingSecond;
+        imgEl.src = showingSecond ? secondImage : mainImage;
+        
+        // Меняем видимость стрелочек
+        btnLeft.style.display = showingSecond ? "flex" : "none";
+        btnRight.style.display = showingSecond ? "none" : "flex";
+      };
+
+      btnRight.onclick = switchCover;
+      btnLeft.onclick = switchCover;
+    }
+
+    // Клик по самой карточке (кроме стрелочек) открывает галерею
+    card.onclick = (e) => {
+      // Если кликнули на стрелочку — игнорируем
+      if (e.target.closest('.card-arrow')) return;
+      openModal(p.images, p.name);
+    };
     
     grid.appendChild(card);
   });
 }
-
 // Открытие галереи
 function openModal(images, title) {
   currentImages = images;
