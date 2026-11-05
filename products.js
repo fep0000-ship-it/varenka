@@ -362,5 +362,237 @@ const products = [
       "images/snowflake-13/5.jpg",
       "images/snowflake-13/6.jpg"
     ]
+  },
+    // --- ПОДСВЕЧНИКИ ---
+  // Серебряные (5 штук)
+  {
+    id: 23,
+    category: "Подсвечники",
+    name: "Подсвечник серебряный (Цвет 1)",
+    price: "500 ₽",
+    description: "Изящный гипсовый подсвечник с серебряным покрытием.",
+    images: [
+      "images/candle-silver-1/main1.jpg",
+      "images/candle-silver-1/main2.jpg",
+      "images/candle-silver-1/1.jpg",
+      "images/candle-silver-1/2.jpg",
+      "images/candle-silver-1/3.jpg",
+      "images/candle-silver-1/4.jpg",
+      "images/candle-silver-1/5.jpg",
+      "images/candle-silver-1/6.jpg",
+      "images/candle-silver-1/7.jpg",
+      "images/candle-silver-1/8.jpg"
+    ]
+  },
+  {
+    id: 24,
+    category: "Подсвечники",
+    name: "Подсвечник серебряный (Цвет 2)",
+    price: "500 ₽",
+    description: "Гипсовый подсвечник с серебряным дизайном.",
+    images: [
+      "images/candle-silver-2/main1.jpg",
+      "images/candle-silver-2/main2.jpg",
+      "images/candle-silver-2/1.jpg",
+      "images/candle-silver-2/2.jpg",
+      "images/candle-silver-2/3.jpg",
+      "images/candle-silver-2/4.jpg",
+      "images/candle-silver-2/5.jpg",
+      "images/candle-silver-2/6.jpg",
+      "images/candle-silver-2/7.jpg",
+      "images/candle-silver-2/8.jpg"
+    ]
+  },
+  {
+    id: 25,
+    category: "Подсвечники",
+    name: "Подсвечник серебряный (Цвет 3)",
+    price: "500 ₽",
+    description: "Серебристый подсвечник ручной работы.",
+    images: [
+      "images/candle-silver-3/main1.jpg",
+      "images/candle-silver-3/main2.jpg",
+      "images/candle-silver-3/1.jpg",
+      "images/candle-silver-3/2.jpg",
+      "images/candle-silver-3/3.jpg",
+      "images/candle-silver-3/4.jpg",
+      "images/candle-silver-3/5.jpg",
+      "images/candle-silver-3/6.jpg",
+      "images/candle-silver-3/7.jpg",
+      "images/candle-silver-3/8.jpg"
+    ]
+  },
+  {
+    id: 26,
+    category: "Подсвечники",
+    name: "Подсвечник серебряный (Цвет 4)",
+    price: "500 ₽",
+    description: "Стильный подсвечник с эффектом металла.",
+    images: [
+      "images/candle-silver-4/main1.jpg",
+      "images/candle-silver-4/main2.jpg",
+      "images/candle-silver-4/1.jpg",
+      "images/candle-silver-4/2.jpg",
+      "images/candle-silver-4/3.jpg",
+      "images/candle-silver-4/4.jpg",
+      "images/candle-silver-4/5.jpg",
+      "images/candle-silver-4/6.jpg",
+      "images/candle-silver-4/7.jpg",
+      "images/candle-silver-4/8.jpg"
+    ]
+  },
+  {
+    id: 27,
+    category: "Подсвечники",
+    name: "Подсвечник серебряный (Цвет 5)",
+    price: "500 ₽",
+    description: "Элегантный серебряный подсвечник.",
+    images: [
+      "images/candle-silver-5/main1.jpg",
+      "images/candle-silver-5/main2.jpg",
+      "images/candle-silver-5/1.jpg",
+      "images/candle-silver-5/2.jpg",
+      "images/candle-silver-5/3.jpg",
+      "images/candle-silver-5/4.jpg",
+      "images/candle-silver-5/5.jpg",
+      "images/candle-silver-5/6.jpg",
+      "images/candle-silver-5/7.jpg",
+      "images/candle-silver-5/8.jpg"
+    ]
+  },
+
+  // Золотые (7 штук)
+  {
+    id: 28,
+    category: "Подсвечники",
+    name: "Подсвечник золотой (Цвет 1)",
+    price: "550 ₽",
+    description: "Роскошный гипсовый подсвечник с золотым покрытием.",
+    images: [
+      "images/candle-gold-1/main1.jpg",
+      "images/candle-gold-1/main2.jpg",
+      "images/candle-gold-1/1.jpg",
+      "images/candle-gold-1/2.jpg",
+      "images/candle-gold-1/3.jpg",
+      "images/candle-gold-1/4.jpg",
+      "images/candle-gold-1/5.jpg",
+      "images/candle-gold-1/6.jpg",
+      "images/candle-gold-1/7.jpg",
+      "images/candle-gold-1/8.jpg"
+    ]
+  },
+  {
+    id: 29,
+    category: "Подсвечники",
+    name: "Подсвечник золотой (Цвет 2)",
+    price: "550 ₽",
+    description: "Тёплый золотистый оттенок, создаёт уют.",
+    images: [
+      "images/candle-gold-2/main1.jpg",
+      "images/candle-gold-2/main2.jpg",
+      "images/candle-gold-2/1.jpg",
+      "images/candle-gold-2/2.jpg",
+      "images/candle-gold-2/3.jpg",
+      "images/candle-gold-2/4.jpg",
+      "images/candle-gold-2/5.jpg",
+      "images/candle-gold-2/6.jpg",
+      "images/candle-gold-2/7.jpg",
+      "images/candle-gold-2/8.jpg"
+    ]
+  },
+  {
+    id: 30,
+    category: "Подсвечники",
+    name: "Подсвечник золотой (Цвет 3)",
+    price: "550 ₽",
+    description: "Изысканный подсвечник с золотым блеском.",
+    images: [
+      "images/candle-gold-3/main1.jpg",
+      "images/candle-gold-3/main2.jpg",
+      "images/candle-gold-3/1.jpg",
+      "images/candle-gold-3/2.jpg",
+      "images/candle-gold-3/3.jpg",
+      "images/candle-gold-3/4.jpg",
+      "images/candle-gold-3/5.jpg",
+      "images/candle-gold-3/6.jpg",
+      "images/candle-gold-3/7.jpg",
+      "images/candle-gold-3/8.jpg"
+    ]
+  },
+  {
+    id: 31,
+    category: "Подсвечники",
+    name: "Подсвечник золотой (Цвет 4)",
+    price: "550 ₽",
+    description: "Классический золотой подсвечник.",
+    images: [
+      "images/candle-gold-4/main1.jpg",
+      "images/candle-gold-4/main2.jpg",
+      "images/candle-gold-4/1.jpg",
+      "images/candle-gold-4/2.jpg",
+      "images/candle-gold-4/3.jpg",
+      "images/candle-gold-4/4.jpg",
+      "images/candle-gold-4/5.jpg",
+      "images/candle-gold-4/6.jpg",
+      "images/candle-gold-4/7.jpg",
+      "images/candle-gold-4/8.jpg"
+    ]
+  },
+  {
+    id: 32,
+    category: "Подсвечники",
+    name: "Подсвечник золотой (Цвет 5)",
+    price: "550 ₽",
+    description: "Праздничный дизайн с золотыми акцентами.",
+    images: [
+      "images/candle-gold-5/main1.jpg",
+      "images/candle-gold-5/main2.jpg",
+      "images/candle-gold-5/1.jpg",
+      "images/candle-gold-5/2.jpg",
+      "images/candle-gold-5/3.jpg",
+      "images/candle-gold-5/4.jpg",
+      "images/candle-gold-5/5.jpg",
+      "images/candle-gold-5/6.jpg",
+      "images/candle-gold-5/7.jpg",
+      "images/candle-gold-5/8.jpg"
+    ]
+  },
+  {
+    id: 33,
+    category: "Подсвечники",
+    name: "Подсвечник золотой (Цвет 6)",
+    price: "550 ₽",
+    description: "Благородный золотой оттенок.",
+    images: [
+      "images/candle-gold-6/main1.jpg",
+      "images/candle-gold-6/main2.jpg",
+      "images/candle-gold-6/1.jpg",
+      "images/candle-gold-6/2.jpg",
+      "images/candle-gold-6/3.jpg",
+      "images/candle-gold-6/4.jpg",
+      "images/candle-gold-6/5.jpg",
+      "images/candle-gold-6/6.jpg",
+      "images/candle-gold-6/7.jpg",
+      "images/candle-gold-6/8.jpg"
+    ]
+  },
+  {
+    id: 34,
+    category: "Подсвечники",
+    name: "Подсвечник золотой (Цвет 7)",
+    price: "550 ₽",
+    description: "Яркий и тёплый подсвечник.",
+    images: [
+      "images/candle-gold-7/main1.jpg",
+      "images/candle-gold-7/main2.jpg",
+      "images/candle-gold-7/1.jpg",
+      "images/candle-gold-7/2.jpg",
+      "images/candle-gold-7/3.jpg",
+      "images/candle-gold-7/4.jpg",
+      "images/candle-gold-7/5.jpg",
+      "images/candle-gold-7/6.jpg",
+      "images/candle-gold-7/7.jpg",
+      "images/candle-gold-7/8.jpg"
+    ]
   }
 ];
