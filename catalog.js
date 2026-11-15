@@ -1,5 +1,5 @@
 // ============================================
-// Логика каталога с галереей
+// Логика каталога с галереей и коллекциями
 // ============================================
 
 const grid = document.getElementById("grid");
@@ -12,6 +12,7 @@ const captionText = document.getElementById("caption");
 const closeBtn = document.querySelector(".close");
 const prevBtn = document.querySelector(".prev");
 const nextBtn = document.querySelector(".next");
+const collectionLink = document.getElementById("collectionLink"); // Новая кнопка
 
 let currentImages = [];
 let currentIndex = 0;
@@ -44,12 +45,10 @@ function render(list) {
     const card = document.createElement("div");
     card.className = "card";
     
-    // Берем картинки
     const mainImage = p.images[0]; 
     const secondImage = p.images[1]; 
     const hasMultipleCovers = p.images.length > 1;
 
-    // Формируем HTML карточки
     card.innerHTML = `
       <div class="photo">
         <img src="${mainImage}" alt="${p.name}" loading="lazy" class="card-img">
@@ -66,7 +65,7 @@ function render(list) {
       </div>
     `;
 
-    // Логика переключения картинок
+    // Переключение обложек
     if (hasMultipleCovers) {
       const imgEl = card.querySelector(".card-img");
       const btnLeft = card.querySelector(".card-arrow.left");
@@ -74,11 +73,9 @@ function render(list) {
       let showingSecond = false;
 
       const switchCover = (e) => {
-        e.stopPropagation(); // Останавливаем клик, чтобы не открылась галерея
+        e.stopPropagation();
         showingSecond = !showingSecond;
         imgEl.src = showingSecond ? secondImage : mainImage;
-        
-        // Меняем видимость стрелочек
         btnLeft.style.display = showingSecond ? "flex" : "none";
         btnRight.style.display = showingSecond ? "none" : "flex";
       };
@@ -87,23 +84,49 @@ function render(list) {
       btnLeft.onclick = switchCover;
     }
 
-    // Клик по самой карточке (кроме стрелочек) открывает галерею
+    // Открытие галереи
     card.onclick = (e) => {
-      // Если кликнули на стрелочку — игнорируем
       if (e.target.closest('.card-arrow')) return;
-      openModal(p.images, p.name);
+      openModal(p);
     };
     
     grid.appendChild(card);
   });
 }
+
 // Открытие галереи
-function openModal(images, title) {
-  currentImages = images;
+function openModal(product) {
+  currentImages = product.images;
   currentIndex = 0;
   modal.style.display = "block";
   modalImg.src = currentImages[currentIndex];
-  captionText.innerHTML = title;
+  captionText.innerHTML = product.name;
+  
+  // Проверяем, есть ли у товара коллекция
+  if (product.linkedIds) {
+    collectionLink.innerHTML = `<button class="btn-collection" onclick="filterByCollection('${product.linkedIds}')">Собрать полную коллекцию</button>`;
+} else {
+    collectionLink.innerHTML = "";
+}
+}
+
+// Функция перехода к конкретной коллекции (по ID товаров)
+function filterByCollection(idsString) {
+  // Закрываем галерею
+  modal.style.display = "none";
+  
+  // Преобразуем строку "36,37" в массив чисел [36, 37]
+  const ids = idsString.split(',').map(Number);
+  
+  // Снимаем активный класс со всех кнопок фильтра
+  document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+  
+  // Отрисовываем только те товары, чей ID есть в списке
+  const collectionProducts = products.filter(p => ids.includes(p.id));
+  render(collectionProducts);
+  
+  // Меняем заголовок страницы
+  document.querySelector(".catalog-header h1").textContent = "Выбранная коллекция";
 }
 
 // Закрытие
