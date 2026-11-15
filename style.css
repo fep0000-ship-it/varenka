@@ -295,3 +295,19 @@ footer a { color: #f2ece2; text-decoration: underline; }
 
 .card-arrow.left { left: 10px; }
 .card-arrow.right { right: 10px; }
+/* Кнопка "Показать всю коллекцию" */
+.btn-collection {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  padding: 10px 24px;
+  border-radius: 30px;
+  font-size: 15px;
+  transition: background 0.2s;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+.btn-collection:hover {
+  background: var(--accent-dark);
+}
