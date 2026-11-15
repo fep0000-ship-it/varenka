@@ -594,5 +594,484 @@ const products = [
       "images/candle-gold-7/7.jpg",
       "images/candle-gold-7/8.jpg"
     ]
+  },
+    // --- ЁЛОЧНЫЕ ШАРЫ ---
+  // Коллекция СИНИЙ
+  {
+    id: 35,
+    category: "Наборы 3 шара",
+    name: "Набор из 3 шаров в голубых тонах",
+    price: "600 ₽",
+    description: "Подарочный набор из 3 шаров в синих/голубых тонах. Можно собрать большую коллекцию.",
+    linkedIds: "48"
+    images: [
+      "images/balls-3-blue/1.jpg", "images/balls-3-blue/4.jpg"
+    ]
+  },
+{
+    id: 36,
+    category: "Наборы 3 шара",
+    name: "Набор из 3 шаров в синих/голубых тонах",
+    price: "600 ₽",
+    description: "Подарочный набор из 3 шаров в синих/голубых тонах. Можно собрать большую коллекцию.",
+    linkedIds: "39"
+    images: [
+      "images/balls-3-blue/2.jpg", "images/balls-3-blue/4.jpg"
+    ]
+  },
+{
+    id: 37,
+    category: "Наборы 3 шара",
+    name: "Набор из 3 шаров в синих/голубых тонах",
+    price: "600 ₽",
+    description: "Подарочный набор из 3 шаров в синих тонах. Можно собрать большую коллекцию.",
+    linkedIds: "43"
+    images: [
+      "images/balls-3-blue/3.jpg", "images/balls-3-blue/4.jpg"
+    ]
+  },
+  {
+    id: 38,
+    category: "Наборы 4 шара",
+    name: "Набор из 4 шаров в синих/голубых тонах",
+    price: "750 ₽",
+    description: "Подарочный набор из 4 шаров в синих/голубых тонах. Соберите полную коллекцию!",
+    images: [
+      "images/balls-4-blue/1.jpg", "images/balls-4-blue/3.jpg"
+    ]
+  },
+ {
+    id: 39,
+    category: "Наборы 4 шара",
+    name: "Набор из 4 шаров в синих/голубых тонах",
+    price: "750 ₽",
+    description: "Подарочный набор из 4 шаров в синих/голубых тонах. Соберите полную коллекцию!",
+    linkedIds: "36"
+    images: [
+      "images/balls-4-blue/2.jpg", "images/balls-4-blue/3.jpg"
+    ]
+  },
+  {
+    id: 40,
+    category: "Наборы 6 шаров",
+    name: "Набор 6 шаров в синих/голубых тонах",
+    price: "1100 ₽",
+    description: "Большой набор из 6 шаров в синих/голубых тонах. Максимальный декор для вашего дома.",
+    linkedIds: "43"
+    images: [
+      "images/balls-6-blue/1.jpg", "images/balls-6-blue/10.jpg"
+    ]
+  },
+{
+    id: 41,
+    category: "Наборы 6 шаров",
+    name: "Набор 6 шаров в синих/голубых тонах",
+    price: "1100 ₽",
+    description: "Большой набор из 6 шаров в синих/голубых тонах. Максимальный декор для вашего дома.",
+    linkedIds: "43"
+    images: [
+      "images/balls-6-blue/2.jpg", "images/balls-6-blue/10.jpg"
+    ]
+  },
+{
+    id: 42,
+    category: "Наборы 6 шаров",
+    name: "Набор 6 шаров в синих/голубых тонах",
+    price: "1100 ₽",
+    description: "Большой набор из 6 шаров в синих/голубых тонах. Максимальный декор для вашего дома.",
+    images: [
+      "images/balls-6-blue/3.jpg", "images/balls-6-blue/10.jpg"
+    ]
+  },
+{
+    id: 43,
+    category: "Наборы 6 шаров",
+    name: "Набор 6 шаров в синих/голубых тонах",
+    price: "1100 ₽",
+    description: "Большой набор из 6 шаров в синих/голубых тонах. Максимальный декор для вашего дома.",
+    linkedIds: "37"
+    images: [
+      "images/balls-6-blue/4.jpg", "images/balls-6-blue/10.jpg"
+    ]
+  },
+{
+    id: 44,
+    category: "Наборы 6 шаров",
+    name: "Набор 6 шаров в синих/голубых тонах",
+    price: "1100 ₽",
+    description: "Большой набор из 6 шаров в синих/голубых тонах. Максимальный декор для вашего дома.",
+    images: [
+      "images/balls-6-blue/5.jpg", "images/balls-6-blue/10.jpg"
+    ]
+  },
+{
+    id: 45,
+    category: "Наборы 6 шаров",
+    name: "Набор 6 шаров в синих/голубых тонах",
+    price: "1100 ₽",
+    description: "Большой набор из 6 шаров в синих/голубых тонах. Максимальный декор для вашего дома.",
+    linkedIds: "43"
+    images: [
+      "images/balls-6-blue/6.jpg", "images/balls-6-blue/10.jpg"
+    ]
+  },
+{
+    id: 46,
+    category: "Наборы 6 шаров",
+    name: "Набор 6 шаров в синих/голубых тонах",
+    price: "1100 ₽",
+    description: "Большой набор из 6 шаров в синих/голубых тонах. Максимальный декор для вашего дома.",
+    images: [
+      "images/balls-6-blue/7.jpg", "images/balls-6-blue/10.jpg"
+    ]
+  },
+{
+    id: 47,
+    category: "Наборы 6 шаров",
+    name: "Набор 6 шаров в синих/голубых тонах",
+    price: "1100 ₽",
+    description: "Большой набор из 6 шаров в синих/голубых тонах. Максимальный декор для вашего дома.",
+    linkedIds: "43"
+    images: [
+      "images/balls-6-blue/8.jpg", "images/balls-6-blue/10.jpg"
+    ]
+  },
+{
+    id: 48,
+    category: "Наборы 6 шаров",
+    name: "Набор 6 шаров в синих/голубых тонах",
+    price: "1100 ₽",
+    description: "Большой набор из 6 шаров в синих/голубых тонах. Максимальный декор для вашего дома.",
+    linkedIds: "35"
+    images: [
+      "images/balls-6-blue/9.jpg", "images/balls-6-blue/10.jpg"
+    ]
+  },
+
+  // Коллекция ЗОЛОТОЙ (нет набора из 4)
+  {
+    id: 49,
+    category: "Наборы 3 шара",
+    name: "Набор 3 шара в золоте",
+    collection: "Золотой",
+    price: "600 ₽",
+    description: "Подарочный набор из 3 шаров с золотым покрытием. Соберите полную коллекцию!",
+    linkedIds: "50"
+    images: [
+      "images/balls-3-gold/1.jpg", "images/balls-3-gold/2.jpg"
+    ]
+  },
+  {
+    id: 50,
+    category: "Наборы 6 шаров",
+    name: "Набор 6 шаров в золоте",
+    collection: "Золотой",
+    price: "1100 ₽",
+    description: "Большой набор из 6 шаров с золотым покрытием. Максимальный декор для вашего дома.",
+    linkedIds: "49"
+    images: [
+      "images/balls-6-gold/1.jpg", "images/balls-6-gold/2.jpg"
+    ]
+  },
+
+  // Коллекция ЗЕЛЕНЫЙ
+  {
+    id: 51,
+    category: "Наборы 3 шара",
+    name: "Набор 3 шара в зеленых тонах",
+    price: "600 ₽",
+    description: "Подарочный набор из 3 шаров в зелёных тонах. Можно собрать большую коллекцию.",
+    linkedIds: "49"
+    images: [
+      "images/balls-3-green/1.jpg", "images/balls-3-green/3.jpg"
+    ]
+  },
+{
+    id: 52,
+    category: "Наборы 3 шара",
+    name: "Набор 3 шара в зеленых тонах",
+    price: "600 ₽",
+    description: "Подарочный набор из 3 шаров в зелёных тонах. Можно собрать большую коллекцию.",
+    linkedIds: "49"
+    images: [
+      "images/balls-3-green/2.jpg", "images/balls-3-green/3.jpg"
+    ]
+  },
+  {
+    id: 53,
+    category: "Наборы 4 шара",
+    name: "Набор 4 шара в зеленых тонах",
+    price: "750 ₽",
+    description: "Набор из 4 шаров в зелёных тонах. Этот набор не имеет продолжения в других размерах.",
+    images: [
+      "images/balls-4-green/1.jpg", "images/balls-4-green/2.jpg"
+    ]
+  },
+  {
+    id: 54,
+    category: "Наборы 6 шаров",
+    name: "Набор 6 шаров в зеленых тонах",
+    price: "1100 ₽",
+    description: "Большой набор из 6 шаров в зелёных тонах. Максимальный декор для вашего дома.",
+    linkedIds: "49"
+    images: [
+      "images/balls-6-green/1.jpg", "images/balls-6-green/3.jpg"
+    ]
+  }, 
+  {
+    id: 55,
+    category: "Наборы 6 шаров",
+    name: "Набор 6 шаров в зеленых тонах",
+    price: "1100 ₽",
+    description: "Большой набор из 6 шаров в зелёных тонах. Максимальный декор для вашего дома.",
+    linkedIds: "49"
+    images: [
+      "images/balls-6-green/2.jpg", "images/balls-6-green/3.jpg"
+    ]
+  },
+
+  // Коллекция КРАСНЫЙ
+  {
+    id: 56,
+    category: "Наборы 3 шара",
+    name: "Набор 3 шара в красных тонах",
+    price: "600 ₽",
+    description: "Подарочный набор из 3 шаров в красном цвете. Можно собрать большую коллекцию.",
+    linkedIds: "49"
+    images: [
+      "images/balls-3-red/1.jpg", "images/balls-3-red/7.jpg"
+    ]
+  },
+  {
+    id: 57,
+    category: "Наборы 3 шара",
+    name: "Набор 3 шара в красных тонах",
+    price: "600 ₽",
+    description: "Подарочный набор из 3 шаров в красном цвете. Можно собрать большую коллекцию.",
+    linkedIds: "49"
+    images: [
+      "images/balls-3-red/2.jpg", "images/balls-3-red/7.jpg"
+    ]
+  },
+{
+    id: 58,
+    category: "Наборы 3 шара",
+    name: "Набор 3 шара в красных тонах",
+    price: "600 ₽",
+    description: "Подарочный набор из 3 шаров в красном цвете. Можно собрать большую коллекцию.",
+    linkedIds: "49"
+    images: [
+      "images/balls-3-red/3.jpg", "images/balls-3-red/7.jpg"
+    ]
+  },
+{
+    id: 59,
+    category: "Наборы 3 шара",
+    name: "Набор 3 шара в красных тонах",
+    price: "600 ₽",
+    description: "Подарочный набор из 3 шаров в красном цвете. Можно собрать большую коллекцию.",
+    linkedIds: "49"
+    images: [
+      "images/balls-3-red/4.jpg", "images/balls-3-red/7.jpg"
+    ]
+  },
+{
+    id: 60,
+    category: "Наборы 3 шара",
+    name: "Набор 3 шара в красных тонах",
+    price: "600 ₽",
+    description: "Подарочный набор из 3 шаров в красном цвете. Можно собрать большую коллекцию.",
+    linkedIds: "49"
+    images: [
+      "images/balls-3-red/5.jpg", "images/balls-3-red/7.jpg"
+    ]
+  },
+{
+    id: 61,
+    category: "Наборы 3 шара",
+    name: "Набор 3 шара в красных тонах",
+    price: "600 ₽",
+    description: "Подарочный набор из 3 шаров в красном цвете. Можно собрать большую коллекцию.",
+    linkedIds: "49"
+    images: [
+      "images/balls-3-red/6.jpg", "images/balls-3-red/7.jpg"
+    ]
+  },
+  {
+    id: 62,
+    category: "Наборы 4 шара",
+    name: "Набор 4 шара в красных тонах",
+    price: "750 ₽",
+    description: "Набор из 4 шаров в красном цвете. Соберите полную коллекцию!",
+    linkedIds: "49"
+    images: [
+      "images/balls-4-red/1.jpg", "images/balls-4-red/4.jpg"
+    ]
+  },
+{
+    id: 63,
+    category: "Наборы 4 шара",
+    name: "Набор 4 шара в красных тонах",
+    price: "750 ₽",
+    description: "Набор из 4 шаров в красном цвете. Соберите полную коллекцию!",
+    linkedIds: "49"
+    images: [
+      "images/balls-4-red/2.jpg", "images/balls-4-red/4.jpg"
+    ]
+  },
+{
+    id: 64,
+    category: "Наборы 4 шара",
+    name: "Набор 4 шара в красных тонах",
+    price: "750 ₽",
+    description: "Набор из 4 шаров в красном цвете. Соберите полную коллекцию!",
+    linkedIds: "49"
+    images: [
+      "images/balls-4-red/3.jpg", "images/balls-4-red/4.jpg"
+    ]
+  },
+  {
+    id: 65,
+    category: "Наборы 6 шаров",
+    name: "Набор 6 шаров в красных тонах",
+    price: "1100 ₽",
+    description: "Большой набор из 6 шаров в красном цвете. Максимальный декор для вашего дома.",
+    linkedIds: "49"
+    images: [
+      "images/balls-6-red/1.jpg", "images/balls-6-red/7.jpg"
+    ]
+  },
+  {
+    id: 66,
+    category: "Наборы 6 шаров",
+    name: "Набор 6 шаров в красных тонах",
+    price: "1100 ₽",
+    description: "Большой набор из 6 шаров в красном цвете. Максимальный декор для вашего дома.",
+    linkedIds: "49"
+    images: [
+      "images/balls-6-red/2.jpg", "images/balls-6-red/7.jpg"
+    ]
+  },
+{
+    id: 67,
+    category: "Наборы 6 шаров",
+    name: "Набор 6 шаров в красных тонах",
+    price: "1100 ₽",
+    description: "Большой набор из 6 шаров в красном цвете. Максимальный декор для вашего дома.",
+    linkedIds: "49"
+    images: [
+      "images/balls-6-red/3.jpg", "images/balls-6-red/7.jpg"
+    ]
+  },
+{
+    id: 68,
+    category: "Наборы 6 шаров",
+    name: "Набор 6 шаров в красных тонах",
+    price: "1100 ₽",
+    description: "Большой набор из 6 шаров в красном цвете. Максимальный декор для вашего дома.",
+    linkedIds: "49"
+    images: [
+      "images/balls-6-red/4.jpg", "images/balls-6-red/7.jpg"
+    ]
+  },
+{
+    id: 69,
+    category: "Наборы 6 шаров",
+    name: "Набор 6 шаров в красных тонах",
+    price: "1100 ₽",
+    description: "Большой набор из 6 шаров в красном цвете. Максимальный декор для вашего дома.",
+    linkedIds: "49"
+    images: [
+      "images/balls-6-red/5.jpg", "images/balls-6-red/7.jpg"
+    ]
+  },{
+    id: 70,
+    category: "Наборы 6 шаров",
+    name: "Набор 6 шаров в красных тонах",
+    price: "1100 ₽",
+    description: "Большой набор из 6 шаров в красном цвете. Максимальный декор для вашего дома.",
+    linkedIds: "49"
+    images: [
+      "images/balls-6-red/6.jpg", "images/balls-6-red/7.jpg"
+    ]
+  },
+
+  // Коллекция СЕРЕБРЯНЫЙ
+  {
+    id: 71,
+    category: "Наборы 3 шара",
+    name: "Набор 3 шара серебряные",
+    price: "600 ₽",
+    description: "Подарочный набор из 3 шаров с серебряным покрытием. Можно собрать большую коллекцию.",
+    linkedIds: "49"
+    images: [
+      "images/balls-3-silver/1.jpg", "images/balls-3-silver/4.jpg"
+    ]
+  },
+ {
+    id: 72,
+    category: "Наборы 3 шара",
+    name: "Набор 3 шара серебряные",
+    price: "600 ₽",
+    description: "Подарочный набор из 3 шаров с серебряным покрытием. Можно собрать большую коллекцию.",
+    linkedIds: "75,77"
+    images: [
+      "images/balls-3-silver/2.jpg", "images/balls-3-silver/4.jpg"
+    ]
+  },
+ {
+    id: 73,
+    category: "Наборы 3 шара",
+    name: "Набор 3 шара серебряные",
+    price: "600 ₽",
+    description: "Подарочный набор из 3 шаров с серебряным покрытием. Можно собрать большую коллекцию.",
+    linkedIds: "49"
+    images: [
+      "images/balls-3-silver/3.jpg", "images/balls-3-silver/4.jpg"
+    ]
+  },
+  {
+    id: 74,
+    category: "Наборы 4 шара",
+    name: "Набор 4 шара серебряные",
+    price: "750 ₽",
+    description: "Набор из 4 шаров с серебряным покрытием. Соберите полную коллекцию!",
+    linkedIds: "49"
+    images: [
+      "images/balls-4-silver/1.jpg", "images/balls-4-silver/4.jpg"
+    ]
+  },
+{
+    id: 75,
+    category: "Наборы 4 шара",
+    name: "Набор 4 шара серебряные",
+    price: "750 ₽",
+    description: "Набор из 4 шаров с серебряным покрытием. Соберите полную коллекцию!",
+    linkedIds: "72,77"
+    images: [
+      "images/balls-4-silver/2.jpg", "images/balls-4-silver/4.jpg"
+    ]
+  },
+{
+    id: 76,
+    category: "Наборы 4 шара",
+    name: "Набор 4 шара серебряные",
+    price: "750 ₽",
+    description: "Набор из 4 шаров с серебряным покрытием. Соберите полную коллекцию!",
+    linkedIds: "49"
+    images: [
+      "images/balls-4-silver/3.jpg", "images/balls-4-silver/4.jpg"
+    ]
+  },
+  {
+    id: 77,
+    category: "Наборы 6 шаров",
+    name: "Набор 6 шаров серебряные",
+    price: "1100 ₽",
+    description: "Большой набор из 6 шаров с серебряным покрытием. Максимальный декор для вашего дома.",
+    linkedIds: "72,75"
+    images: [
+      "images/balls-6-silver/1.jpg", "images/balls-6-silver/2.jpg"
+    ]
   }
 ];
