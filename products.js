@@ -603,7 +603,7 @@ const products = [
     name: "Набор из 3 шаров в голубых тонах",
     price: "600 ₽",
     description: "Подарочный набор из 3 шаров в синих/голубых тонах. Можно собрать большую коллекцию.",
-    linkedIds: "48"
+    linkedIds: "48",
     images: [
       "images/balls-3-blue/1.jpg", "images/balls-3-blue/4.jpg"
     ]
@@ -614,7 +614,7 @@ const products = [
     name: "Набор из 3 шаров в синих/голубых тонах",
     price: "600 ₽",
     description: "Подарочный набор из 3 шаров в синих/голубых тонах. Можно собрать большую коллекцию.",
-    linkedIds: "39"
+    linkedIds: "39",
     images: [
       "images/balls-3-blue/2.jpg", "images/balls-3-blue/4.jpg"
     ]
@@ -625,7 +625,7 @@ const products = [
     name: "Набор из 3 шаров в синих/голубых тонах",
     price: "600 ₽",
     description: "Подарочный набор из 3 шаров в синих тонах. Можно собрать большую коллекцию.",
-    linkedIds: "43"
+    linkedIds: "43",
     images: [
       "images/balls-3-blue/3.jpg", "images/balls-3-blue/4.jpg"
     ]
@@ -646,7 +646,7 @@ const products = [
     name: "Набор из 4 шаров в синих/голубых тонах",
     price: "750 ₽",
     description: "Подарочный набор из 4 шаров в синих/голубых тонах. Соберите полную коллекцию!",
-    linkedIds: "36"
+    linkedIds: "36",
     images: [
       "images/balls-4-blue/2.jpg", "images/balls-4-blue/3.jpg"
     ]
@@ -657,7 +657,7 @@ const products = [
     name: "Набор 6 шаров в синих/голубых тонах",
     price: "1100 ₽",
     description: "Большой набор из 6 шаров в синих/голубых тонах. Максимальный декор для вашего дома.",
-    linkedIds: "43"
+    linkedIds: "43",
     images: [
       "images/balls-6-blue/1.jpg", "images/balls-6-blue/10.jpg"
     ]
@@ -668,7 +668,7 @@ const products = [
     name: "Набор 6 шаров в синих/голубых тонах",
     price: "1100 ₽",
     description: "Большой набор из 6 шаров в синих/голубых тонах. Максимальный декор для вашего дома.",
-    linkedIds: "43"
+    linkedIds: "43",
     images: [
       "images/balls-6-blue/2.jpg", "images/balls-6-blue/10.jpg"
     ]
@@ -689,7 +689,7 @@ const products = [
     name: "Набор 6 шаров в синих/голубых тонах",
     price: "1100 ₽",
     description: "Большой набор из 6 шаров в синих/голубых тонах. Максимальный декор для вашего дома.",
-    linkedIds: "37"
+    linkedIds: "37",
     images: [
       "images/balls-6-blue/4.jpg", "images/balls-6-blue/10.jpg"
     ]
@@ -710,7 +710,7 @@ const products = [
     name: "Набор 6 шаров в синих/голубых тонах",
     price: "1100 ₽",
     description: "Большой набор из 6 шаров в синих/голубых тонах. Максимальный декор для вашего дома.",
-    linkedIds: "43"
+    linkedIds: "43",
     images: [
       "images/balls-6-blue/6.jpg", "images/balls-6-blue/10.jpg"
     ]
@@ -731,7 +731,7 @@ const products = [
     name: "Набор 6 шаров в синих/голубых тонах",
     price: "1100 ₽",
     description: "Большой набор из 6 шаров в синих/голубых тонах. Максимальный декор для вашего дома.",
-    linkedIds: "43"
+    linkedIds: "43",
     images: [
       "images/balls-6-blue/8.jpg", "images/balls-6-blue/10.jpg"
     ]
@@ -742,7 +742,7 @@ const products = [
     name: "Набор 6 шаров в синих/голубых тонах",
     price: "1100 ₽",
     description: "Большой набор из 6 шаров в синих/голубых тонах. Максимальный декор для вашего дома.",
-    linkedIds: "35"
+    linkedIds: "35",
     images: [
       "images/balls-6-blue/9.jpg", "images/balls-6-blue/10.jpg"
     ]
@@ -756,7 +756,7 @@ const products = [
     collection: "Золотой",
     price: "600 ₽",
     description: "Подарочный набор из 3 шаров с золотым покрытием. Соберите полную коллекцию!",
-    linkedIds: "50"
+    linkedIds: "50",
     images: [
       "images/balls-3-gold/1.jpg", "images/balls-3-gold/2.jpg"
     ]
@@ -768,7 +768,7 @@ const products = [
     collection: "Золотой",
     price: "1100 ₽",
     description: "Большой набор из 6 шаров с золотым покрытием. Максимальный декор для вашего дома.",
-    linkedIds: "49"
+    linkedIds: "49",
     images: [
       "images/balls-6-gold/1.jpg", "images/balls-6-gold/2.jpg"
     ]
@@ -781,7 +781,7 @@ const products = [
     name: "Набор 3 шара в зеленых тонах",
     price: "600 ₽",
     description: "Подарочный набор из 3 шаров в зелёных тонах. Можно собрать большую коллекцию.",
-    linkedIds: "49"
+    linkedIds: "49",
     images: [
       "images/balls-3-green/1.jpg", "images/balls-3-green/3.jpg"
     ]
@@ -792,7 +792,7 @@ const products = [
     name: "Набор 3 шара в зеленых тонах",
     price: "600 ₽",
     description: "Подарочный набор из 3 шаров в зелёных тонах. Можно собрать большую коллекцию.",
-    linkedIds: "49"
+    linkedIds: "49",
     images: [
       "images/balls-3-green/2.jpg", "images/balls-3-green/3.jpg"
     ]
@@ -813,7 +813,7 @@ const products = [
     name: "Набор 6 шаров в зеленых тонах",
     price: "1100 ₽",
     description: "Большой набор из 6 шаров в зелёных тонах. Максимальный декор для вашего дома.",
-    linkedIds: "49"
+    linkedIds: "49",
     images: [
       "images/balls-6-green/1.jpg", "images/balls-6-green/3.jpg"
     ]
@@ -824,7 +824,7 @@ const products = [
     name: "Набор 6 шаров в зеленых тонах",
     price: "1100 ₽",
     description: "Большой набор из 6 шаров в зелёных тонах. Максимальный декор для вашего дома.",
-    linkedIds: "49"
+    linkedIds: "49",
     images: [
       "images/balls-6-green/2.jpg", "images/balls-6-green/3.jpg"
     ]
@@ -837,7 +837,7 @@ const products = [
     name: "Набор 3 шара в красных тонах",
     price: "600 ₽",
     description: "Подарочный набор из 3 шаров в красном цвете. Можно собрать большую коллекцию.",
-    linkedIds: "49"
+    linkedIds: "49",
     images: [
       "images/balls-3-red/1.jpg", "images/balls-3-red/7.jpg"
     ]
@@ -848,7 +848,7 @@ const products = [
     name: "Набор 3 шара в красных тонах",
     price: "600 ₽",
     description: "Подарочный набор из 3 шаров в красном цвете. Можно собрать большую коллекцию.",
-    linkedIds: "49"
+    linkedIds: "49",
     images: [
       "images/balls-3-red/2.jpg", "images/balls-3-red/7.jpg"
     ]
@@ -859,7 +859,7 @@ const products = [
     name: "Набор 3 шара в красных тонах",
     price: "600 ₽",
     description: "Подарочный набор из 3 шаров в красном цвете. Можно собрать большую коллекцию.",
-    linkedIds: "49"
+    linkedIds: "49",
     images: [
       "images/balls-3-red/3.jpg", "images/balls-3-red/7.jpg"
     ]
@@ -870,7 +870,7 @@ const products = [
     name: "Набор 3 шара в красных тонах",
     price: "600 ₽",
     description: "Подарочный набор из 3 шаров в красном цвете. Можно собрать большую коллекцию.",
-    linkedIds: "49"
+    linkedIds: "49",
     images: [
       "images/balls-3-red/4.jpg", "images/balls-3-red/7.jpg"
     ]
@@ -881,7 +881,7 @@ const products = [
     name: "Набор 3 шара в красных тонах",
     price: "600 ₽",
     description: "Подарочный набор из 3 шаров в красном цвете. Можно собрать большую коллекцию.",
-    linkedIds: "49"
+    linkedIds: "49",
     images: [
       "images/balls-3-red/5.jpg", "images/balls-3-red/7.jpg"
     ]
@@ -892,7 +892,7 @@ const products = [
     name: "Набор 3 шара в красных тонах",
     price: "600 ₽",
     description: "Подарочный набор из 3 шаров в красном цвете. Можно собрать большую коллекцию.",
-    linkedIds: "49"
+    linkedIds: "49",
     images: [
       "images/balls-3-red/6.jpg", "images/balls-3-red/7.jpg"
     ]
@@ -903,7 +903,7 @@ const products = [
     name: "Набор 4 шара в красных тонах",
     price: "750 ₽",
     description: "Набор из 4 шаров в красном цвете. Соберите полную коллекцию!",
-    linkedIds: "49"
+    linkedIds: "49",
     images: [
       "images/balls-4-red/1.jpg", "images/balls-4-red/4.jpg"
     ]
@@ -914,7 +914,7 @@ const products = [
     name: "Набор 4 шара в красных тонах",
     price: "750 ₽",
     description: "Набор из 4 шаров в красном цвете. Соберите полную коллекцию!",
-    linkedIds: "49"
+    linkedIds: "49",
     images: [
       "images/balls-4-red/2.jpg", "images/balls-4-red/4.jpg"
     ]
@@ -925,7 +925,7 @@ const products = [
     name: "Набор 4 шара в красных тонах",
     price: "750 ₽",
     description: "Набор из 4 шаров в красном цвете. Соберите полную коллекцию!",
-    linkedIds: "49"
+    linkedIds: "49",
     images: [
       "images/balls-4-red/3.jpg", "images/balls-4-red/4.jpg"
     ]
@@ -936,7 +936,7 @@ const products = [
     name: "Набор 6 шаров в красных тонах",
     price: "1100 ₽",
     description: "Большой набор из 6 шаров в красном цвете. Максимальный декор для вашего дома.",
-    linkedIds: "49"
+    linkedIds: "49",
     images: [
       "images/balls-6-red/1.jpg", "images/balls-6-red/7.jpg"
     ]
@@ -947,7 +947,7 @@ const products = [
     name: "Набор 6 шаров в красных тонах",
     price: "1100 ₽",
     description: "Большой набор из 6 шаров в красном цвете. Максимальный декор для вашего дома.",
-    linkedIds: "49"
+    linkedIds: "49",
     images: [
       "images/balls-6-red/2.jpg", "images/balls-6-red/7.jpg"
     ]
@@ -958,7 +958,7 @@ const products = [
     name: "Набор 6 шаров в красных тонах",
     price: "1100 ₽",
     description: "Большой набор из 6 шаров в красном цвете. Максимальный декор для вашего дома.",
-    linkedIds: "49"
+    linkedIds: "49",
     images: [
       "images/balls-6-red/3.jpg", "images/balls-6-red/7.jpg"
     ]
@@ -969,7 +969,7 @@ const products = [
     name: "Набор 6 шаров в красных тонах",
     price: "1100 ₽",
     description: "Большой набор из 6 шаров в красном цвете. Максимальный декор для вашего дома.",
-    linkedIds: "49"
+    linkedIds: "49",
     images: [
       "images/balls-6-red/4.jpg", "images/balls-6-red/7.jpg"
     ]
@@ -980,7 +980,7 @@ const products = [
     name: "Набор 6 шаров в красных тонах",
     price: "1100 ₽",
     description: "Большой набор из 6 шаров в красном цвете. Максимальный декор для вашего дома.",
-    linkedIds: "49"
+    linkedIds: "49",
     images: [
       "images/balls-6-red/5.jpg", "images/balls-6-red/7.jpg"
     ]
@@ -990,7 +990,7 @@ const products = [
     name: "Набор 6 шаров в красных тонах",
     price: "1100 ₽",
     description: "Большой набор из 6 шаров в красном цвете. Максимальный декор для вашего дома.",
-    linkedIds: "49"
+    linkedIds: "49",
     images: [
       "images/balls-6-red/6.jpg", "images/balls-6-red/7.jpg"
     ]
@@ -1003,7 +1003,7 @@ const products = [
     name: "Набор 3 шара серебряные",
     price: "600 ₽",
     description: "Подарочный набор из 3 шаров с серебряным покрытием. Можно собрать большую коллекцию.",
-    linkedIds: "49"
+    linkedIds: "49",
     images: [
       "images/balls-3-silver/1.jpg", "images/balls-3-silver/4.jpg"
     ]
@@ -1014,7 +1014,7 @@ const products = [
     name: "Набор 3 шара серебряные",
     price: "600 ₽",
     description: "Подарочный набор из 3 шаров с серебряным покрытием. Можно собрать большую коллекцию.",
-    linkedIds: "75,77"
+    linkedIds: "75,77",
     images: [
       "images/balls-3-silver/2.jpg", "images/balls-3-silver/4.jpg"
     ]
@@ -1025,7 +1025,7 @@ const products = [
     name: "Набор 3 шара серебряные",
     price: "600 ₽",
     description: "Подарочный набор из 3 шаров с серебряным покрытием. Можно собрать большую коллекцию.",
-    linkedIds: "49"
+    linkedIds: "49",
     images: [
       "images/balls-3-silver/3.jpg", "images/balls-3-silver/4.jpg"
     ]
@@ -1036,7 +1036,7 @@ const products = [
     name: "Набор 4 шара серебряные",
     price: "750 ₽",
     description: "Набор из 4 шаров с серебряным покрытием. Соберите полную коллекцию!",
-    linkedIds: "49"
+    linkedIds: "49",
     images: [
       "images/balls-4-silver/1.jpg", "images/balls-4-silver/4.jpg"
     ]
@@ -1047,7 +1047,7 @@ const products = [
     name: "Набор 4 шара серебряные",
     price: "750 ₽",
     description: "Набор из 4 шаров с серебряным покрытием. Соберите полную коллекцию!",
-    linkedIds: "72,77"
+    linkedIds: "72,77",
     images: [
       "images/balls-4-silver/2.jpg", "images/balls-4-silver/4.jpg"
     ]
@@ -1058,7 +1058,7 @@ const products = [
     name: "Набор 4 шара серебряные",
     price: "750 ₽",
     description: "Набор из 4 шаров с серебряным покрытием. Соберите полную коллекцию!",
-    linkedIds: "49"
+    linkedIds: "49",
     images: [
       "images/balls-4-silver/3.jpg", "images/balls-4-silver/4.jpg"
     ]
@@ -1069,7 +1069,7 @@ const products = [
     name: "Набор 6 шаров серебряные",
     price: "1100 ₽",
     description: "Большой набор из 6 шаров с серебряным покрытием. Максимальный декор для вашего дома.",
-    linkedIds: "72,75"
+    linkedIds: "72,75",
     images: [
       "images/balls-6-silver/1.jpg", "images/balls-6-silver/2.jpg"
     ]
