@@ -112,23 +112,13 @@ function openModal(product) {
 
 // Функция перехода к конкретной коллекции (по ID товаров)
 function filterByCollection(idsString) {
-  // Закрываем галерею
   modal.style.display = "none";
-  
-  // Преобразуем строку "36,37" в массив чисел [36, 37]
   const ids = idsString.split(',').map(Number);
-  
-  // Снимаем активный класс со всех кнопок фильтра
   document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
-  
-  // Отрисовываем только те товары, чей ID есть в списке
   const collectionProducts = products.filter(p => ids.includes(p.id));
   render(collectionProducts);
-  
-  // Меняем заголовок страницы
   document.querySelector(".catalog-header h1").textContent = "Выбранная коллекция";
 }
-
 // Закрытие
 closeBtn.onclick = () => modal.style.display = "none";
 modal.onclick = (e) => { if (e.target === modal) modal.style.display = "none"; };
