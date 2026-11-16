@@ -140,7 +140,8 @@ if (catParam && categories.includes(catParam)) {
   document.querySelectorAll(".filter-btn").forEach(b => {
     b.classList.toggle("active", b.textContent === catParam);
   });
-  render(products.filter(p => p.category === catParam));
+  // Ищем товары, в названии категории которых есть нужное слово
+  render(products.filter(p => p.category.includes(catParam)));
 } else {
   render(products);
 }
