@@ -376,12 +376,14 @@ footer a { color: #f2ece2; text-decoration: underline; }
 }
 
 .hero-logo {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 8px 30px rgba(59, 47, 42, 0.15); /* Красивая тень */
-  border: 3px solid var(--bg-soft);
+  width: 200px;  /* Тот же размер, что и на странице Обо мне */
+  height: 200px; 
+  flex-shrink: 0; /* Запрещаем сжиматься */
+  border-radius: 50%; /* Делает идеальный круг */
+  object-fit: cover; /* Чтобы картинка не искажалась */
+  box-shadow: 0 6px 20px rgba(59, 47, 42, 0.15); /* Тень, как на Обо мне */
+  border: 3px solid var(--bg-soft); /* Легкая рамка */
+  margin: 0; 
 }
 
 /* Мобильная адаптация для баннера */
