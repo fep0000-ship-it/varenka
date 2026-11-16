@@ -400,3 +400,51 @@ footer a { color: #f2ece2; text-decoration: underline; }
     height: 150px;
   }
 }
+/* ===== Обо мне (новая структура) ===== */
+.about {
+  padding: 60px 0;
+  max-width: 800px; /* Чуть шире, чтобы логотип и текст поместились в ряд */
+  margin: 0 auto;
+}
+
+.about-header {
+  display: flex;
+  align-items: center; /* Выравнивание по вертикали */
+  gap: 30px; /* Расстояние между логотипом и текстом */
+  margin-bottom: 30px;
+}
+
+.about-logo {
+  width: 150px; /* Размер логотипа на странице Обо мне */
+  height: 150px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 6px 20px rgba(59, 47, 42, 0.15);
+  border: 3px solid var(--bg-soft);
+}
+
+.about-title h1 {
+  font-size: clamp(28px, 4vw, 40px); 
+  color: var(--accent-dark); 
+  font-style: italic; 
+  margin: 0; /* Убираем лишние отступы у заголовка */
+}
+
+.about-text p {
+  margin-bottom: 16px; 
+  font-size: 17px;
+}
+
+/* Адаптация для телефонов */
+@media (max-width: 600px) {
+  .about-header {
+    flex-direction: column; /* На телефоне логотип над текстом */
+    text-align: center;
+    gap: 15px;
+  }
+  .about-logo {
+    width: 120px;
+    height: 120px;
+  }
+}
