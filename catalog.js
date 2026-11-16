@@ -20,34 +20,11 @@ let currentIndex = 0;
 // Собираем список категорий
 const categories = ["Все", ...new Set(products.map(p => p.category))];
 
-// Словарь с картинками для каждой категории
-const imagesMap = {
-  "Гирлянды": "images/cat-garland.jpg",
-  "Подсвечники": "images/cat-candle.jpg",
-  "Снежинки": "images/cat-snowflake.jpg",
-  "Наборы 3 шара": "images/cat-ball.jpg", // Если категории шаров называются иначе — поменяй названия слева
-  "Наборы 4 шара": "images/cat-ball.jpg",
-  "Наборы 6 шаров": "images/cat-ball.jpg"
-};
-
 // Кнопки фильтров
 categories.forEach(cat => {
   const btn = document.createElement("button");
   btn.className = "filter-btn" + (cat === "Все" ? " active" : "");
-  btn.setAttribute("data-cat", cat);
-
-  // Если это категория "Все" — просто текст
-  if (cat === "Все") {
-    btn.textContent = "Все";
-  } else {
-    // Если это обычная категория — добавляем картинку и текст
-    const imgSrc = imagesMap[cat] || "images/placeholder.jpg"; // На случай, если картинки нет
-    btn.innerHTML = `
-      <img src="${imgSrc}" alt="${cat}">
-      <span class="cat-title">${cat}</span>
-    `;
-  }
-
+  btn.textContent = cat;
   btn.onclick = () => {
     document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
     btn.classList.add("active");
