@@ -318,8 +318,8 @@ footer a { color: #f2ece2; text-decoration: underline; }
 /* Логотип в левом верхнем углу баннера */
 .hero-corner-logo {
   position: absolute;
-  top: 80px;   /* Отступ от верха баннера */
-  left: 80px;  /* Отступ от левого края баннера */
+  top: 100px;   /* Отступ от верха баннера */
+  left: 100px;  /* Отступ от левого края баннера */
   width: 150px;       
   height: 150px;
   border-radius: 50%; 
