@@ -133,15 +133,37 @@ nextBtn.onclick = () => {
   modalImg.src = currentImages[currentIndex];
 };
 
-// Поддержка ссылки вида catalog.html?cat=Гирлянды
+// Поддержка ссылки вида catalog.html?cat=...
 const params = new URLSearchParams(location.search);
 const catParam = params.get("cat");
-if (catParam && categories.includes(catParam)) {
-  document.querySelectorAll(".filter-btn").forEach(b => {
-    b.classList.toggle("active", b.textContent === catParam);
+
+if (catParam) {
+  // Приводим искомое слово к нижнему регистру для надежности
+  const searchWord = catParam.toLowerCase();
+
+  // 1. Ищем кнопку фильтра, в которой есть это слово
+  const buttons = document.querySelectorAll(".filter-btn");
+  let activeBtnFound = false;
+
+  buttons.forEach(btn => {
+    // Если в тексте кнопки есть наше слово (например, "Снежинки" в "Елочные игрушки снежинки")
+    if (btn.textContent.toLowerCase().includes(searchWord)) {
+      document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      activeBtnFound = true;
+    }
   });
-  // Ищем товары, в названии категории которых есть нужное слово
-  render(products.filter(p => p.category.includes(catParam)));
+
+  // 2. Фильтруем товары по вхождению слова в категорию
+  const filtered = products.filter(p => p.category.toLowerCase().includes(searchWord));
+  
+  if (filtered.length > 0) {
+    render(filtered);
+  } else {
+    // Если ничего не нашли по этому слову, показываем всё (чтобы страница не была пустой)
+    render(products);
+  }
 } else {
+  // Если параметров нет, показываем все товары
   render(products);
 }
