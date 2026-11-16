@@ -322,3 +322,26 @@ footer a { color: #f2ece2; text-decoration: underline; }
   .card h3 { font-size: 16px; }
   .card .desc { font-size: 13px; }
 }
+/* Логотип в левом верхнем углу баннера */
+.hero-corner-logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 120px;       /* Размер логотипа */
+  height: 120px;
+  border-radius: 50%; /* Круглая форма */
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  border: 3px solid var(--bg-soft);
+  z-index: 5;
+}
+
+/* На телефонах логотип в углу может мешать тексту, поэтому уменьшаем его */
+@media (max-width: 768px) {
+  .hero-corner-logo {
+    width: 80px;
+    height: 80px;
+    top: 10px;
+    left: 10px;
+  }
+}
