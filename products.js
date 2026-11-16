@@ -369,7 +369,7 @@ const products = [
     id: 23,
     category: "Подсвечники из гипса",
     name: "Подсвечник белый с серебряным покрытием",
-    price: "400 ₽",
+    price: "450 ₽",
     description: "Набор подсвечников из гипса с насыпным воском, 2 шт. в подарочной коробке",
     images: [
       "images/candle-silver-1/main1.jpg",
@@ -388,7 +388,7 @@ const products = [
     id: 24,
     category: "Подсвечники из гипса",
     name: "Подсвечник желтый с серебряным покрытием",
-    price: "400 ₽",
+    price: "450 ₽",
     description: "Набор подсвечников из гипса с насыпным воском, 2 шт. в подарочной коробке",
     images: [
       "images/candle-silver-2/main1.jpg",
@@ -407,7 +407,7 @@ const products = [
     id: 25,
     category: "Подсвечники из гипса",
     name: "Подсвечник светло-серый с серебряным покрытием",
-    price: "400 ₽",
+    price: "450 ₽",
     description: "Набор подсвечников из гипса с насыпным воском, 2 шт. в подарочной коробке",
     images: [
       "images/candle-silver-3/main1.jpg",
@@ -426,7 +426,7 @@ const products = [
     id: 26,
     category: "Подсвечники из гипса",
     name: "Подсвечник голубой с серебряным покрытием",
-    price: "400 ₽",
+    price: "450 ₽",
     description: "Набор подсвечников из гипса с насыпным воском, 2 шт. в подарочной коробке",
     images: [
       "images/candle-silver-4/main1.jpg",
@@ -445,7 +445,7 @@ const products = [
     id: 27,
     category: "Подсвечники из гипса",
     name: "Подсвечник оранжевый с серебряным покрытием",
-    price: "400 ₽",
+    price: "450 ₽",
     description: "Набор подсвечников из гипса с насыпным воском, 2 шт. в подарочной коробке",
     images: [
       "images/candle-silver-5/main1.jpg",
@@ -466,7 +466,7 @@ const products = [
     id: 28,
     category: "Подсвечники из гипса",
     name: "Подсвечник белый с золотым покрытием",
-    price: "400 ₽",
+    price: "450 ₽",
     description: "Набор подсвечников из гипса с насыпным воском, 2 шт. в подарочной коробке",
     images: [
       "images/candle-gold-1/main1.jpg",
@@ -485,7 +485,7 @@ const products = [
     id: 29,
     category: "Подсвечники из гипса",
     name: "Подсвечник желтый с золотым покрытием",
-    price: "400 ₽",
+    price: "450 ₽",
     description: "Набор подсвечников из гипса с насыпным воском, 2 шт. в подарочной коробке",
     images: [
       "images/candle-gold-2/main1.jpg",
@@ -504,7 +504,7 @@ const products = [
     id: 30,
     category: "Подсвечники из гипса",
     name: "Подсвечник светло-серый с золотым покрытием",
-    price: "400 ₽",
+    price: "450 ₽",
     description: "Набор подсвечников из гипса с насыпным воском, 2 шт. в подарочной коробке",
     images: [
       "images/candle-gold-3/main1.jpg",
@@ -523,7 +523,7 @@ const products = [
     id: 31,
     category: "Подсвечники из гипса",
     name: "Подсвечник голубой с золотым покрытием",
-    price: "400 ₽",
+    price: "450 ₽",
     description: "Набор подсвечников из гипса с насыпным воском, 2 шт. в подарочной коробке",
     images: [
       "images/candle-gold-4/main1.jpg",
@@ -542,7 +542,7 @@ const products = [
     id: 32,
     category: "Подсвечники из гипса",
     name: "Подсвечник оранжевый с золотым покрытием",
-    price: "400 ₽",
+    price: "450 ₽",
     description: "Набор подсвечников из гипса с насыпным воском, 2 шт. в подарочной коробке",
     images: [
       "images/candle-gold-5/main1.jpg",
@@ -561,7 +561,7 @@ const products = [
     id: 33,
     category: "Подсвечники из гипса",
     name: "Подсвечник коричневый с золотым покрытием",
-    price: "400 ₽",
+    price: "450 ₽",
     description: "Набор подсвечников из гипса с насыпным воском, 2 шт. в подарочной коробке",
     images: [
       "images/candle-gold-6/main1.jpg",
@@ -580,7 +580,7 @@ const products = [
     id: 34,
     category: "Подсвечники из гипса",
     name: "Подсвечник пыльная роза с золотым покрытием",
-    price: "400 ₽",
+    price: "450 ₽",
     description: "Набор подсвечников из гипса с насыпным воском, 2 шт. в подарочной коробке",
     images: [
       "images/candle-gold-7/main1.jpg",
