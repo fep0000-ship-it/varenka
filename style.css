@@ -311,3 +311,29 @@ footer a { color: #f2ece2; text-decoration: underline; }
 .btn-collection:hover {
   background: var(--accent-dark);
 }
+/* ===== Картинки в категориях на главной ===== */
+.cat-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  padding: 0 0 20px 0; /* Убираем отступ сверху, чтобы картинка была впритык к краям */
+}
+
+.cat-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border-bottom: 2px solid var(--bg-soft);
+  transition: transform 0.3s ease;
+}
+
+.cat-card:hover .cat-img {
+  transform: scale(1.05); /* Легкий эффект увеличения при наведении */
+}
+
+/* Убираем старый стиль для эмодзи, так как мы его больше не используем */
+.cat-card .emoji {
+  display: none;
+}
