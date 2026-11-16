@@ -362,3 +362,39 @@ footer a { color: #f2ece2; text-decoration: underline; }
   margin-bottom: 20px;
   line-height: 1.6;
 }
+/* ===== Баннер на главной ===== */
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px; /* Расстояние между логотипом и текстом */
+  text-align: left; /* Выравниваем текст по левому краю */
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 8px 30px rgba(59, 47, 42, 0.15); /* Красивая тень */
+  border: 3px solid var(--bg-soft);
+}
+
+/* Мобильная адаптация для баннера */
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column; /* На телефонах ставим картинку над текстом */
+    text-align: center;
+  }
+  .hero-text {
+    text-align: center;
+  }
+  .hero-logo {
+    width: 150px;
+    height: 150px;
+  }
+}
