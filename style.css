@@ -327,3 +327,75 @@ footer a { color: #f2ece2; text-decoration: underline; }
     height: 100px;
   }
 }
+/* =========================================
+   ФИНАЛЬНЫЕ НАСТРОЙКИ ЛОГОТИПОВ И КНОПКИ
+   ========================================= */
+
+/* 1. Логотип на главной: чуть больше, круглый, сдвинут влево */
+.hero .my-logo {
+  width: 160px !important;
+  height: 160px !important;
+  max-width: 160px !important;
+  min-width: 160px !important;
+  object-fit: cover !important;
+  border-radius: 50% !important;
+  border: 3px solid var(--bg-soft) !important;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1) !important;
+  display: block !important;
+  margin: 0 auto 20px auto !important;
+  transform: translateX(-15px) !important; /* Сдвиг влево */
+}
+
+/* 2. Красная овальная кнопка "Смотреть каталог" */
+.hero .btn {
+  display: inline-block !important;
+  background-color: var(--accent) !important; /* Красный */
+  color: #ffffff !important;
+  padding: 14px 40px !important; /* Овальная форма */
+  border-radius: 50px !important;
+  font-size: 18px !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+  margin-top: 25px !important;
+  border: 2px solid var(--accent) !important;
+  box-shadow: 0 4px 12px rgba(168, 50, 50, 0.2) !important;
+  font-family: inherit !important;
+}
+.hero .btn:hover {
+  background-color: var(--accent-dark) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 16px rgba(168, 50, 50, 0.3) !important;
+  text-decoration: none !important;
+}
+
+/* 3. Логотип на странице "Обо мне": аккуратный круглый */
+.about-flex .my-logo {
+  width: 120px !important;
+  height: 120px !important;
+  max-width: 120px !important;
+  min-width: 120px !important;
+  flex-shrink: 0 !important;
+  border-radius: 50% !important; /* Круг */
+  object-fit: cover !important;
+  margin: 0 !important;
+  transform: none !important; /* Убираем сдвиг, который делали для главной */
+  border: 3px solid var(--bg-soft) !important;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1) !important;
+}
+
+/* 4. Мобильная адаптация (чтобы на телефоне всё было ровно) */
+@media (max-width: 768px) {
+  .hero .my-logo {
+    transform: none !important; /* На телефоне логотип по центру */
+    width: 130px !important;
+    height: 130px !important;
+    min-width: 130px !important;
+  }
+  .about-flex {
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+  .about-flex .my-logo {
+    margin: 0 auto 15px auto !important;
+  }
+}
