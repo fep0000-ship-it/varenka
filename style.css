@@ -184,12 +184,12 @@ footer a { color: #f2ece2; text-decoration: underline; }
     gap: 15px; /* Чуть уменьшаем отступ для телефона */
   }
   
-  .about-flex .my-logo {
-    width: 80px !important;  /* Уменьшаем логотип на телефоне */
-    height: 80px !important;
-    min-width: 80px !important;
-    max-width: 80px !important;
-    margin: 0 !important;    /* Убираем центрирование */
+ .about-flex .my-logo {
+    margin: 0 auto 20px auto !important; 
+    width: 120px !important;
+    height: 120px !important;
+    min-width: 120px !important;
+    max-width: 120px !important;
   }
 
   .about-flex h1 {
