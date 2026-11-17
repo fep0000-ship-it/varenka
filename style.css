@@ -328,9 +328,9 @@ footer a { color: #f2ece2; text-decoration: underline; }
 .hero-corner-logo {
   position: absolute !important;
   top: 40px !important;   /* Жестко задаем отступ сверху */
-  left: 20px !important;
-  width: 100px !important;
-  height: 100px !important;
+  left: 50px !important;
+  width: 120px !important;
+  height: 120px !important;
   border-radius: 50% !important; 
   object-fit: cover !important;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1) !important;
