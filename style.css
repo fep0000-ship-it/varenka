@@ -114,9 +114,11 @@ header {
 * Убираем лишние отступы у заголовка "Обо мне" */
 .about-flex h1 {
   margin: 0 !important;
-  font-size: 40px !important;
-  color: var(--accent-dark) !important;
-  font-style: italic !important;
+  /* Возвращаем стандартные стили заголовка */
+  font-size: clamp(28px, 4vw, 40px) !important; 
+  color: var(--text) !important; /* Возвращаем темный цвет текста */
+  font-style: normal !important; /* Убираем курсив */
+  font-weight: normal !important;
 }
 /* =========================================
    ТЕЛЕФОН: Логотип по центру, текст по центру
