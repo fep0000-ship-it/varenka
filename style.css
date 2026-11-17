@@ -323,22 +323,19 @@ footer a { color: #f2ece2; text-decoration: underline; }
   .card .desc { font-size: 13px; }
 }
 /* Логотип в левом верхнем углу баннера */
-.hero {
-  position: relative; /* Важно, чтобы логотип привязался к баннеру */
-  padding: 60px 0 60px;
-}
+
 
 .hero-corner-logo {
-  position: absolute;
-  top: 50px;
-  left: 30px;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%; 
-  object-fit: cover;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-  border: 3px solid var(--bg-soft);
-  z-index: 1;
+  position: absolute !important;
+  top: 40px !important;   /* Жестко задаем отступ сверху */
+  left: 20px !important;
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50% !important; 
+  object-fit: cover !important;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1) !important;
+  border: 3px solid var(--bg-soft) !important;
+  z-index: 1 !important;
 }
 
 /* На телефонах логотип в углу может мешать тексту, поэтому уменьшаем его */
@@ -349,5 +346,7 @@ footer a { color: #f2ece2; text-decoration: underline; }
     display: block;
     width: 120px;
     height: 120px;
+    top: auto !important; /* Сбрасываем top, чтобы не влиял */
+    left: auto !important;
   }
 }
