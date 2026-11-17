@@ -83,8 +83,21 @@ header {
 
 /* ===== Страница Обо мне ===== */
 .about { padding: 60px 0; max-width: 800px; margin: 0 auto; }
-.about-flex { display: flex; align-items: center; gap: 30px; margin-bottom: 30px; text-align: left; }
-.about-flex h1 { font-size: clamp(28px, 4vw, 40px); color: var(--accent-dark); font-style: italic; margin: 0; }
+.about-flex {
+  display: flex;
+  align-items: center;       /* Выравнивание по вертикали */
+  justify-content: flex-start; /* Прижимаем всё к левому краю */
+  gap: 20px;                 /* Расстояние между логотипом и текстом */
+  margin-bottom: 30px;
+  text-align: left;          /* Текст слева */
+}
+
+.about-flex h1 {
+  font-size: clamp(28px, 4vw, 40px);
+  color: var(--accent-dark);
+  font-style: italic;
+  margin: 0;
+}
 .about-text p { margin-bottom: 16px; font-size: 17px; }
 
 /* ===== Каталог ===== */
@@ -125,8 +138,24 @@ footer a { color: #f2ece2; text-decoration: underline; }
 /* ===== Мобильная адаптация ===== */
 @media (max-width: 768px) {
   .hero-flex { flex-direction: column; text-align: center; }
-  .about-flex { flex-direction: column; text-align: center; }
-  .about-flex h1 { margin-top: 15px; }
+    .about-flex {
+    flex-direction: row; /* Оставляем в линию (лого слева, текст справа) */
+    justify-content: flex-start; /* Прижимаем к левому краю */
+    text-align: left;
+    gap: 15px; /* Чуть уменьшаем отступ для телефона */
+  }
+  
+  .about-flex .my-logo {
+    width: 80px !important;  /* Уменьшаем логотип на телефоне */
+    height: 80px !important;
+    min-width: 80px !important;
+    max-width: 80px !important;
+    margin: 0 !important;    /* Убираем центрирование */
+  }
+
+  .about-flex h1 {
+    font-size: 24px; /* Уменьшаем заголовок, чтобы влез в строку */
+  }
   .my-logo {
     width: 120px !important;
     height: 120px !important;
