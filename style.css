@@ -81,22 +81,59 @@ header {
 .cat-img { width: 100%; height: 180px; object-fit: cover; margin-bottom: 15px; border-bottom: 2px solid var(--bg-soft); transition: transform 0.3s ease; }
 .cat-card:hover .cat-img { transform: scale(1.05); }
 
-/* ===== Страница Обо мне ===== */
-.about { padding: 60px 0; max-width: 800px; margin: 0 auto; }
+* =========================================
+   СТРАНИЦА "ОБО МНЕ" - ФИНАЛЬНЫЙ ВАРИАНТ
+   ========================================= */
+
+/* Контейнер страницы */
+.about {
+  padding: 60px 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+/* КОМПЬЮТЕР: Логотип слева, заголовок справа */
 .about-flex {
-  display: flex;
-  align-items: center;       /* Выравнивание по вертикали */
-  justify-content: flex-start; /* Прижимаем всё к левому краю */
-  gap: 20px;                 /* Расстояние между логотипом и текстом */
-  margin-bottom: 30px;
-  text-align: left;          /* Текст слева */
+  display: flex !important;
+  align-items: center !important; /* Выравниваем по центру по вертикали */
+  justify-content: flex-start !important; /* Прижимаем к левому краю */
+  gap: 30px !important; /* Отступ между лого и текстом */
+  margin-bottom: 30px !important;
+  text-align: left !important;
+}
+/* Фиксируем размер лого на компьютере */
+.about-flex .my-logo {
+  width: 150px !important;
+  height: 150px !important;
+  max-width: 150px !important;
+  min-width: 150px !important;
+  margin: 0 !important; /* Убираем автоцентрирование */
+  border-radius: 50% !important;
+  object-fit: cover !important;
 }
 
+* Убираем лишние отступы у заголовка "Обо мне" */
 .about-flex h1 {
-  font-size: clamp(28px, 4vw, 40px);
-  color: var(--accent-dark);
-  font-style: italic;
-  margin: 0;
+  margin: 0 !important;
+  font-size: 40px !important;
+  color: var(--accent-dark) !important;
+  font-style: italic !important;
+}
+/* =========================================
+   ТЕЛЕФОН: Логотип по центру, текст по центру
+   ========================================= */
+@media (max-width: 768px) {
+  .about-flex {
+    flex-direction: column !important; /* Ставим друг под другом */
+    justify-content: center !important;
+    text-align: center !important; /* Текст по центру */
+  }
+ .about-flex .my-logo {
+    margin: 0 auto 20px auto !important; /* Центрируем лого */
+    width: 120px !important;
+    height: 120px !important;
+    min-width: 120px !important;
+    max-width: 120px !important;
+  }
 }
 .about-text p { margin-bottom: 16px; font-size: 17px; }
 
