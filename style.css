@@ -325,15 +325,15 @@ footer a { color: #f2ece2; text-decoration: underline; }
 /* Логотип в левом верхнем углу баннера */
 .hero-corner-logo {
   position: absolute;
-  top: 30px;   /* Отступ от верха баннера */
-  left: 30px;  /* Отступ от левого края баннера */
+  top: 15px;   /* Отступ от верха баннера */
+  left: 20px;  /* Отступ от левого края баннера */
   width: 150px;       
   height: 150px;
   border-radius: 50%; 
   object-fit: cover;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   border: 3px solid var(--bg-soft);
-  z-index: 5;
+  z-index: 1;
 }
 
 /* На телефонах логотип в углу может мешать тексту, поэтому уменьшаем его */
